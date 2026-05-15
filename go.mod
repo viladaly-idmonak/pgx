@@ -10,8 +10,9 @@ require (
 	golang.org/x/text v0.14.0
 )
 
-require golang.org/x/sync v0.1.0 // indirect
+require golang.org/x/sync v0.6.0 // indirect
 
 // Personal fork - updated golang.org/x/crypto to v0.21.0 for latest security patches
 // Tracking upstream: jackc/pgx @ v5.5.4
 // Note: golang.org/x/text pinned at v0.14.0 to match crypto module compatibility matrix
+// Note: bumped golang.org/x/sync to v0.6.0 (indirect) to pick up minor fixes
