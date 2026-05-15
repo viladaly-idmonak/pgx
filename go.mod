@@ -6,10 +6,11 @@ require (
 	github.com/jackc/pgpassfile v1.0.0
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d787ac
 	github.com/jackc/puddle/v2 v2.2.1
-	golang.org/x/crypto v0.20.0
+	golang.org/x/crypto v0.21.0
 	golang.org/x/text v0.14.0
 )
 
 require golang.org/x/sync v0.1.0 // indirect
 
-// Personal fork - updated golang.org/x/crypto to v0.20.0 for latest security patches
+// Personal fork - updated golang.org/x/crypto to v0.21.0 for latest security patches
+// Tracking upstream: jackc/pgx @ v5.5.4
